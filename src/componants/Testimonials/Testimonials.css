@@ -1,0 +1,16 @@
+.testimonials{
+    margin-top: 200px;
+}
+
+@media (max-width:1440px) {
+    .testimonials{
+        margin-top: 150px;
+    }
+    
+}
+@media (max-width:990px) {
+    .testimonials{
+        margin-top: 80px;
+    }
+    
+}

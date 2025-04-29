@@ -1,0 +1,111 @@
+.testimonial-card {
+    gap: 30px;
+    padding: 50px;
+    border: solid 2px #262626;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 12px;
+    margin-right: 25px;
+    margin-left: 25px;
+    max-height: 462px;
+
+
+    .profile {
+        .profile-img {
+            border-radius: 100px;
+            border: solid 1px #333333;
+            padding: 10px;
+            background-color: #FFF5F0;
+            width: fit-content;
+            margin: 0 auto;
+
+            img {}
+        }
+
+        p {
+            font-family: 'outfit';
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #333333;
+            margin-top: 12px;
+        }
+    }
+
+    .rating {
+        width: 140px;
+        height: 24px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #333333;
+        max-width: 325px;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:1590px) {
+    .testimonial-card {
+        gap: 24px;
+        padding: 40px;
+        display: flex;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        max-height: 462px;
+
+
+        .profile {
+            .profile-img {
+                border-radius: 100px;
+                padding: 8px;
+                img {
+                    width: 50px;
+                    height: 50px;
+
+                }
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+
+        .rating {
+            width: 116px;
+            height: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            max-width: 260px;
+        }
+
+
+    }
+
+}
+@media (max-width:1060px) {
+    .testimonial-card {
+        gap: 20px;
+        padding: 30px;
+        width: 358px;
+        margin: 0 auto;
+        margin-right: 20px;
+    }
+
+}

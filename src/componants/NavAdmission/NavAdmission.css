@@ -1,0 +1,163 @@
+.admission-nav{
+    width: 94.7vw; 
+    background-color:#FFDECC ;
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 14px;    
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+    gap: 14px;
+    align-items: center;
+    border: solid 2px #262626 ;
+    border-radius: 8px;
+    overflow: hidden;
+
+    
+    p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0
+        ;
+
+    }
+    .vector-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .abstract1-left{
+        position: absolute;
+        left: 0px;
+        opacity: 50%;
+    }
+    .abstract1-right{
+        position: absolute;
+        right: 0px;
+        transform: scaleX(-1);
+        opacity: 50%;
+
+    }
+    .abstract2-left{
+        position: absolute;
+        left: 30%;
+        top: -10%  ;
+
+    }
+    .abstract2-right{
+        position: absolute;
+        right: 30%;
+        bottom: -10%  ;
+
+    }
+
+
+}
+
+@media (max-width:1440px) {
+    .admission-nav{
+
+        margin-top: 16px;
+        margin-bottom: 14px;    
+
+        padding: 12px 0;
+        gap: 14px;
+        border-radius: 6px;
+        
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0%;
+    
+        }
+        .vector-icon{
+            height: 24px;
+            width: 24px;
+        }
+        .abstract1-left{
+            position: absolute;
+            left: 0px;
+            opacity: 50%;
+        }
+        .abstract1-right{
+            position: absolute;
+            right: 0px;
+            transform: scaleX(-1);
+            opacity: 50%;
+    
+        }
+        .abstract2-left{
+            position: absolute;
+            left: 21.8%;
+            top: -10%  ;
+    
+        }
+        .abstract2-right{
+            position: absolute;
+            right: 21.8%;
+            bottom: -10%  ;
+    
+        }
+    
+    
+    }
+}
+
+@media (max-width:990px) {
+    .admission-nav{
+
+        margin-top: 40px;
+        margin-bottom: 14px;    
+
+        padding: 12px 0;
+        gap: 14px;
+        border-radius: 6px;
+        
+        p{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            display: flex;
+
+            align-items: center;
+    
+        }
+        .vector-icon{
+            height: 20px;
+            width: 20px;
+        }
+        .abstract1-left{
+            position: absolute;
+            left: 0px;
+            opacity: 50%;
+        }
+        .abstract1-right{
+            position: absolute;
+            right: 0px;
+            transform: scaleX(-1);
+            opacity: 50%;
+    
+        }
+        .abstract2-left{
+            position: absolute;
+            left: 1.8%;
+            top: -10%  ;
+    
+        }
+        .abstract2-right{
+            position: absolute;
+            right: 1.8%;
+            bottom: -10%  ;
+    
+        }
+    
+    
+    }
+}

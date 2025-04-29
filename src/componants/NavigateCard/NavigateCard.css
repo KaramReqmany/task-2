@@ -1,0 +1,197 @@
+.navigate-card {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 80px;
+    border: solid 2px #262626;
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+    text-align: center;
+
+    .firstcontainer {
+        text-align: center;
+        max-width: 613px;
+        margin-bottom: 80px;
+
+        .sub-container {
+            justify-self: center;
+            width: 100%;
+            text-align: center;
+            width: fit-content;
+            margin-bottom: 50px;
+
+            h2 {
+                font-family: 'raleway';
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 130%;
+                letter-spacing: 0%;
+                margin-bottom: 30px;
+            }
+
+            img {
+                width: 613px;
+                height: 20px;
+
+            }
+
+        }
+
+        p {
+            max-width: 500px;
+            font-family: 'Outfit';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-align: center;
+
+        }
+    }
+    button{
+        font-family: 'outfit';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+        border-radius: 10px;
+        background-color:#FFDECC ;
+        padding: 18px 0;
+        border: solid 2px #262626;
+        box-shadow: 2px 2px 0px 2px #1E1E1E;
+        img{
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+        }
+
+    }
+
+}
+
+@media (max-width:1650px) {
+    .navigate-card {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 60px;
+        border: solid 2px #262626;
+        box-shadow: 4px 4px 0px 2px #1E1E1E;
+        text-align: center;
+    
+        .firstcontainer {
+            text-align: center;
+            max-width: 500px;
+            margin-bottom: 60px;
+    
+            .sub-container {
+                justify-self: center;
+                width: 100%;
+                text-align: center;
+                width: fit-content;
+                margin-bottom: 40px;
+    
+                h2 {
+                    font-family: 'raleway';
+                    font-weight: 700;
+                    font-size: 34px;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                    margin-bottom: 24px;
+                }
+    
+                img {
+                    width: 500px;
+                    height: 20px;
+    
+                }
+    
+            }
+    
+            p {
+                max-width: 500px;
+                font-family: 'Outfit';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: center;
+    
+            }
+        }
+        button{
+            font-family: 'outfit';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #333333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            
+            border-radius: 8px;
+            background-color:#FFDECC ;
+            padding: 18px 0;
+            border: solid 2px #262626;
+            box-shadow: 2px 2px 0px 2px #1E1E1E;
+            img{
+                width: 24px;
+                height: 24px;
+                margin-left: 10px;
+            }
+    
+        }
+    
+    }
+    
+}
+
+@media (max-width:990px) {
+    .navigate-card {
+        padding: 40px;
+    
+        .firstcontainer {
+            margin-bottom: 40px;
+    
+            .sub-container {
+                margin-bottom: 30px;
+    
+                h2 {
+                    font-size: 28px;
+                    margin-bottom: 20px;
+                }
+    
+                img {
+                    width: 278px;
+                    height: 20px;
+    
+                }
+    
+            }
+    
+        }
+        button{
+            font-family: 'outfit';
+
+            font-size: 16px;
+            
+            border-radius: 6px;
+
+            padding: 16px 0;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+            }
+    
+        }
+    
+    }
+    
+}

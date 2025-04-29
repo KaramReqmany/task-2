@@ -1,0 +1,158 @@
+
+
+.benefitcard {
+    width: fit-content;   
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 80px 50px 50px 50px;
+    gap: 20px;
+    border: solid 2px #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    margin-top: 35px;
+    
+
+    .heading {
+        width: 404px;
+        height: 36px;
+        font-family: 'raleway';
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        color: #1A1A1A;
+    }
+
+    p {
+        text-wrap: wrap;
+        width: 404px;
+        height: 120px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #4C4C4D;
+    }
+    .iconcontainer{
+        padding-left: 30px;
+        position: absolute;
+        left: 0;
+        top: 0 ;
+        transform: translateY(-50%);
+
+        .icon{
+            height: fit-content;
+            width: fit-content;
+            padding: 20px;
+            border: solid 2px #262626;
+            border-radius: 12px;
+            background-color:#FFDECC ;
+        }
+    }
+
+}
+
+@media (max-width:1600px) {
+    .benefitcard {
+        margin-top: 25px;       
+        position: relative;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 60px 40px 40px 40px;
+        gap: 16px;
+        border: solid 2px #262626;
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        
+    
+        .heading {
+            width: 320px;
+            height: 31px;
+            font-family: 'raleway';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: 0%;
+            color: #1A1A1A;
+        }
+    
+        p {
+            text-wrap: wrap;
+            width: 320px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #4C4C4D;
+        }
+        .iconcontainer{
+            padding-left: 24px;
+            position: absolute;
+            left: 0;
+            top: 0 ;
+            transform: translateY(-50%);
+    
+            .icon{
+                height: fit-content;
+                width: fit-content;
+                padding: 16px;
+                border: solid 2px #262626;
+                border-radius: 8px;
+                background-color:#FFDECC ;
+            }
+        }
+    
+    }
+}
+
+@media (max-width:990px) {
+    .benefitcard {
+        margin-left: 0;
+        margin-right: 0;       
+        position: relative;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 50px 40px 30px 30px;
+        gap: 16px;
+        border: solid 2px #262626;
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        
+    
+        .heading {
+            width: 288px;
+            height: 29px;
+            font-family: 'raleway';
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 130%;
+            letter-spacing: 0%;
+            color: #1A1A1A;
+        }
+    
+        p {
+            text-wrap: wrap;
+            width: 288px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #4C4C4D;
+        }
+        .iconcontainer{
+            padding-left: 24px;
+            position: absolute;
+            left: 0;
+            top: 0 ;
+            transform: translateY(-50%);
+    
+            .icon{
+                height: fit-content;
+                width: fit-content;
+                padding: 16px;
+                border: solid 2px #262626;
+                border-radius: 8px;
+                background-color:#FFDECC ;
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,10 @@
+.homeheader{
+    
+    height: fit-content;
+    width: 94.73vw;
+    margin: 0 auto;    
+    top: 18px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
